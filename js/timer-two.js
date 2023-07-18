@@ -26,7 +26,7 @@ function initializeClock(id, endtime) {
     if (t.total <= 0) {
       clearInterval(timeinterval);
       var deadline = new Date(Date.parse(endtime) + 24 * 60 * 60 * 1000);
-      initializeClock('countdown', deadline);
+      initializeClock('countdown-two', deadline);
     }
   }
 
@@ -35,4 +35,4 @@ function initializeClock(id, endtime) {
 }
 
 var deadline = 'July 10 2023 00:00:00 GMT+0300';
-initializeClock('countdown', deadline);
+initializeClock('countdown-two', deadline);
