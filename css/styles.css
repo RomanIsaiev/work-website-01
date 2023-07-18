@@ -55,7 +55,7 @@ body {
 /* -----------------------section-hero-------------------------- */
 
 .section-hero {
-  background-image: url(/images/hero-background-mobile.jpg);
+  background-image: url(./images/hero-background-mobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 
@@ -386,7 +386,7 @@ body {
   padding-top: 60px;
   padding-bottom: 60px;
 
-  background-image: url(/images/section-two-background.jpg);
+  background-image: url(./images/section-two-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -896,7 +896,7 @@ body {
   padding-top: 60px;
   padding-bottom: 0;
 
-  background-image: url(/images/section-six-background.jpg);
+  background-image: url(./images/section-six-background.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
