@@ -58,6 +58,7 @@ body {
   background-image: url(../images/hero-background-mobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 
   padding-top: 30px;
   padding-bottom: 28px;
