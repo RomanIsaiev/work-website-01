@@ -259,6 +259,8 @@ body {
 .link-button {
   display: block;
 
+  text-align: center;
+
   color: var(--white, #fff);
   font-family: Montserrat;
   font-size: 16px;
@@ -847,6 +849,13 @@ body {
 .five-result-item {
   display: flex;
   align-items: center;
+
+  margin-top: 0;
+  margin-bottom: 22px;
+}
+
+.five-result-item:last-child {
+  margin-bottom: 0;
 }
 
 .list-result-text {
@@ -859,10 +868,6 @@ body {
   width: 268px;
 
   margin-top: 0;
-  margin-bottom: 22px;
-}
-
-.list-result-text:last-child {
   margin-bottom: 0;
 }
 
