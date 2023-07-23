@@ -35,9 +35,11 @@
             </p>
           </div>
         </div>
-        <p class="hero-main-price">
-          <span class="hero-price-span">3130 грн</span> 467 грн
-        </p>
+        <div class="hero-accent">
+          <p class="hero-main-price">
+            <span class="hero-price-span">3130 грн</span> 467 грн
+          </p>
+        </div>
       </section>
       <!----------------------section-one----------------------->
       <section class="section-one">
@@ -149,11 +151,13 @@
               >
             </li>
           </ul>
-          <ul class="two-privilege-list">
-            <li class="two-privilege-item">Рекомендації мами та подруг</li>
-            <li class="two-privilege-item">Поради психологів та педагогів</li>
-            <li class="two-privilege-item">Досвід та інтуїція</li>
-          </ul>
+          <div class="privilege-wrapper">
+            <ul class="two-privilege-list">
+              <li class="two-privilege-item">Рекомендації мами та подруг</li>
+              <li class="two-privilege-item">Поради психологів та педагогів</li>
+              <li class="two-privilege-item">Досвід та інтуїція</li>
+            </ul>
+          </div>
           <p class="two-text-one">
             Які інструменти ви ще використовували? Все вищезгадане допомогло вам
             <span class="text-one-accent"
@@ -192,7 +196,11 @@
           <img
             class="section-three-image"
             src="./images/section-three-background.png"
-            height=""
+            alt=""
+          />
+          <img
+            class="section-three-image-tablet"
+            src="./images/image-tablet/section-three-background-tablet.png"
             alt=""
           />
           <div class="three-text-container">
@@ -279,7 +287,7 @@
             себе спрямувати та проявити.
           </p>
           <p class="four-text-three">
-            Адже ні її, ні вас цього не вчили. <br>
+            Адже ні її, ні вас цього не вчили. <br />
             <span class="accent-two">Але ж ви мама! І ви точно можете!</span>
           </p>
           <h3 class="four-three-title">
@@ -334,6 +342,11 @@
             src="./images/section-five-background.png"
             alt=""
           />
+          <img
+            class="image-two"
+            src="./images/image-tablet/section-five-background-tablet.png"
+            alt=""
+          />
           <p class="five-text">
             Протягом багатьох років абсолютно різні люди (вчителі, подруги,
             бабусі та дідусі, друзі дітей, родичі та ін.) говорять мені про те,
@@ -355,31 +368,41 @@
           <ul class="five-list-result list">
             <li class="five-result-item">
               <svg class="list-result-icon" width="20" height="20">
-                <use href="./images/symbol-defs.svg#icon-section-five-svg"></use>
+                <use
+                  href="./images/symbol-defs.svg#icon-section-five-svg"
+                ></use>
               </svg>
               <p class="list-result-text">Діти мені довіряють</p>
             </li>
             <li class="five-result-item">
               <svg class="list-result-icon" width="20" height="20">
-                <use href="./images/symbol-defs.svg#icon-section-five-svg"></use>
+                <use
+                  href="./images/symbol-defs.svg#icon-section-five-svg"
+                ></use>
               </svg>
               <p class="list-result-text">Вони діляться зі мною</p>
             </li>
             <li class="five-result-item">
               <svg class="list-result-icon" width="20" height="20">
-                <use href="./images/symbol-defs.svg#icon-section-five-svg"></use>
+                <use
+                  href="./images/symbol-defs.svg#icon-section-five-svg"
+                ></use>
               </svg>
               <p class="list-result-text">Приходять радитись</p>
             </li>
             <li class="five-result-item">
               <svg class="list-result-icon" width="20" height="20">
-                <use href="./images/symbol-defs.svg#icon-section-five-svg"></use>
+                <use
+                  href="./images/symbol-defs.svg#icon-section-five-svg"
+                ></use>
               </svg>
               <p class="list-result-text">Прислухаються до рекомендацій</p>
             </li>
             <li class="five-result-item">
               <svg class="list-result-icon" width="20" height="20">
-                <use href="./images/symbol-defs.svg#icon-section-five-svg"></use>
+                <use
+                  href="./images/symbol-defs.svg#icon-section-five-svg"
+                ></use>
               </svg>
               <p class="list-result-text">
                 Вони щасливі, постійно розвиваються та будують своє життя
@@ -387,7 +410,7 @@
             </li>
           </ul>
           <p class="five-last-text">
-            Не всупереч, а завдяки <br>
+            Не всупереч, а завдяки <br />
             <span class="last-text-accent">Завдяки астрології, зокрема</span>
           </p>
         </div>
@@ -423,39 +446,48 @@
           </ul>
         </div>
       </section>
-            <!--------------------section-seven------------------->
+      <!--------------------section-seven------------------->
       <section class="section-seven">
         <div class="container">
           <table class="seven-table">
             <tr>
               <th>Наповнення (урок)</th>
-              <th>Міні-курс<br>"Мама може"</th>
+              <th>Міні-курс<br />"Мама може"</th>
             </tr>
             <tr>
               <td><span>Вступний.</span> Побудова карти народження</td>
               <td>+</td>
             </tr>
             <tr>
-              <td><span>Сонце.</span> Королівська планета. Влада, тато, впевнінсть</td>
-              <td>+</td>
-            </tr>
-            <tr>
               <td>
-                <span>Місяць.</span> Мама, емоції, довіра до світу, психосоматика, сон, діти
+                <span>Сонце.</span> Королівська планета. Влада, тато, впевнінсть
               </td>
               <td>+</td>
             </tr>
             <tr>
-              <td><span>Марс.</span> Воїн, енергія, спорт, починання, сміливість</td>
-              <td>+</td>
-            </tr>
-            <tr>
-              <td><span>Меркурій.</span> Інтелект, мова, бізнес, комунікація, навчання</td>
+              <td>
+                <span>Місяць.</span> Мама, емоції, довіра до світу,
+                психосоматика, сон, діти
+              </td>
               <td>+</td>
             </tr>
             <tr>
               <td>
-                <span>Юпітер.</span> Мудрість, справедливість, наставники та вчителі, повага
+                <span>Марс.</span> Воїн, енергія, спорт, починання, сміливість
+              </td>
+              <td>+</td>
+            </tr>
+            <tr>
+              <td>
+                <span>Меркурій.</span> Інтелект, мова, бізнес, комунікація,
+                навчання
+              </td>
+              <td>+</td>
+            </tr>
+            <tr>
+              <td>
+                <span>Юпітер.</span> Мудрість, справедливість, наставники та
+                вчителі, повага
               </td>
               <td>+</td>
             </tr>
@@ -465,14 +497,15 @@
             </tr>
             <tr>
               <td>
-                <span>Сатурн.</span> Планета Карми. Обовʼязки, служіння, справедливість,
-                родова карма
+                <span>Сатурн.</span> Планета Карми. Обовʼязки, служіння,
+                справедливість, родова карма
               </td>
               <td>+</td>
             </tr>
             <tr>
               <td>
-                <span>Раху.</span> Показник устремлінь та талантів душі на поточне життя
+                <span>Раху.</span> Показник устремлінь та талантів душі на
+                поточне життя
               </td>
               <td>+</td>
             </tr>
@@ -481,12 +514,14 @@
               <td>+</td>
             </tr>
             <tr>
-              <td>Строк доступу до матеріалів </td>
+              <td>Строк доступу до матеріалів</td>
               <td>30 днів</td>
             </tr>
             <tr>
-              <td>Повна вартість/Ціна для вас </td>
-              <td><span class="seven-style">3130 грн</span> / <span>467 грн</span></td>
+              <td>Повна вартість/Ціна для вас</td>
+              <td>
+                <span class="seven-style">3130 грн</span> / <span>467 грн</span>
+              </td>
             </tr>
           </table>
           <p class="six-last-text">
@@ -497,74 +532,92 @@
             >
             Зрозумієте, які прості, але в той же час ефективні дії слід робити,
             щоб
-            <span
-              >ці впливи спрямувати в конструктивне русло.</span
-            >
+            <span>ці впливи спрямувати в конструктивне русло.</span>
           </p>
           <p class="six-blue-text">
-            <span class="six-blue-accent">Далі все у ваших руках<br></span> Хто ще
-            може зробити стосунки з дитиною гармонійними та допомогти їй
+            <span class="six-blue-accent">Далі все у ваших руках<br /></span>
+            Хто ще може зробити стосунки з дитиною гармонійними та допомогти їй
             побудувати щасливе, успішне майбутнє?
           </p>
-        </section>
-        <!--------------------section-eight------------------->
-        <section class="section-eight">
-          <div class="eight-img-name">
-            <img src="./images/section-seven-image.jpg" alt="Сім'я" width="100%" height="auto"/>
+        </div>
+      </section>
+      <!--------------------section-eight------------------->
+      <section class="section-eight">
+        <div class="eight-img-name">
+          <picture>
+            <source
+              srcset="./images/image-tablet/section-eight-image-tablet.jpg"
+              media="(min-width: 768px)"
+              width="100%"
+              height="auto"
+            />
+            <img
+              src="./images/section-seven-image.jpg"
+              alt="Сім'я"
+              width="100%"
+              height="auto"
+            />
+          </picture>
+        </div>
+        <div class="container">
+          <div class="run-string-container">
+            <div class="items marquee">
+              <div class="string-item">
+                <p class="run-string">Знижка 85%</p>
+              </div>
+              <div class="string-item">
+                <p class="run-string-accent">Знижка 85%</p>
+              </div>
+              <div class="string-item">
+                <p class="run-string">Знижка 85%</p>
+              </div>
+              <div class="string-item">
+                <p class="run-string-accent">Знижка 85%</p>
+              </div>
+              <div class="string-item">
+                <p class="run-string">Знижка 85%</p>
+              </div>
+              <div class="string-item">
+                <p class="run-string-accent">Знижка 85%</p>
+              </div>
+              <div class="string-item">
+                <p class="run-string">Знижка 85%</p>
+              </div>
+              <div class="string-item">
+                <p class="run-string-accent">Знижка 85%</p>
+              </div>
+              <div class="string-item">
+                <p class="run-string">Знижка 85%</p>
+              </div>
+              <div class="string-item">
+                <p class="run-string-accent">Знижка 85%</p>
+              </div>
+            </div>
           </div>
-         <div class="container">
-           <div class="run-string-container">
-             <div class="items marquee">
-               <div class="string-item">
-                 <p class="run-string">Знижка 85%</p>
-               </div>
-               <div class="string-item">
-                 <p class="run-string-accent">Знижка 85%</p>
-               </div>
-               <div class="string-item">
-                 <p class="run-string">Знижка 85%</p>
-               </div>
-               <div class="string-item">
-                 <p class="run-string-accent">Знижка 85%</p>
-               </div>
-               <div class="string-item">
-                 <p class="run-string">Знижка 85%</p>
-               </div>
-               <div class="string-item">
-                 <p class="run-string-accent">Знижка 85%</p>
-               </div>
-               <div class="string-item">
-                <p class="run-string">Знижка 85%</p>
-              </div>
-              <div class="string-item">
-                <p class="run-string-accent">Знижка 85%</p>
-              </div>
-              <div class="string-item">
-                <p class="run-string">Знижка 85%</p>
-              </div>
-              <div class="string-item">
-                <p class="run-string-accent">Знижка 85%</p>
-              </div>
-             </div>
-           </div>
-           <a class="link-button link eight-margin" href="">Хочу на курс</a>
-           <p class="eight-text-gifts">
-             Оплатіть до кінця дня і отримайте <span>подарунки</span>
-           </p>
-           <img class="eight-gifts" src="./images/section-eight-gifts.png" alt="подарунок" width="186" height="229"/>
-           <ul class="section-one-list list">
-             <li class="section-one-item">
-               <p class="one-item-text">
-                 1. Вебінар “Як вас бачить ваша дитина”
-               </p>
-             </li>
-             <li class="section-one-item">
-               <p class="one-item-text">
-                 2. Детальний, професійний прогноз на новий місяць
-               </p>
-             </li>
-           </ul>
-         </div>
+          <a class="link-button link eight-margin" href="">Хочу на курс</a>
+          <p class="eight-text-gifts">
+            Оплатіть до кінця дня і отримайте <span>подарунки</span>
+          </p>
+          <img
+            class="eight-gifts"
+            src="./images/section-eight-gifts.png"
+            alt="подарунок"
+            width="186"
+            height="229"
+          />
+          <ul class="section-eight-list list">
+            <li class="section-eight-item">
+              <p class="eight-item-text">
+                1. Вебінар “Як вас бачить ваша дитина”
+              </p>
+            </li>
+            <li class="section-eight-item">
+              <p class="eight-item-text">
+                2. Детальний, професійний прогноз на новий місяць
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!--------------------section-nine------------------->
       <section class="section-nine">
@@ -646,7 +699,7 @@
           </div>
         </div>
       </section>
-            <!--------------------section-ten------------------->
+      <!--------------------section-ten------------------->
       <section class="section-ten">
         <div class="container">
           <div class="ten-wrapper">
@@ -655,32 +708,20 @@
               діток
             </p>
             <p class="ten-text-two">
-              Можливо, вам страшно. Можливо, щось не розумієте. І ви насправді
-              не зобов'язані.
+              Можливо, вам страшно. Можливо, щось не розумієте. <br />
+              І ви насправді не зобов'язані.
             </p>
             <p class="ten-text-three">Але ж ви можете</p>
           </div>
           <div class="run-string-container">
-             <div class="items marquee">
-               <div class="string-item">
-                 <p class="run-string">Знижка 85%</p>
-               </div>
-               <div class="string-item">
-                 <p class="run-string-accent">Знижка 85%</p>
-               </div>
-               <div class="string-item">
-                 <p class="run-string">Знижка 85%</p>
-               </div>
-               <div class="string-item">
-                 <p class="run-string-accent">Знижка 85%</p>
-               </div>
-               <div class="string-item">
-                 <p class="run-string">Знижка 85%</p>
-               </div>
-               <div class="string-item">
-                 <p class="run-string-accent">Знижка 85%</p>
-               </div>
-               <div class="string-item">
+            <div class="items marquee">
+              <div class="string-item">
+                <p class="run-string">Знижка 85%</p>
+              </div>
+              <div class="string-item">
+                <p class="run-string-accent">Знижка 85%</p>
+              </div>
+              <div class="string-item">
                 <p class="run-string">Знижка 85%</p>
               </div>
               <div class="string-item">
@@ -692,25 +733,43 @@
               <div class="string-item">
                 <p class="run-string-accent">Знижка 85%</p>
               </div>
-             </div>
-           </div>
+              <div class="string-item">
+                <p class="run-string">Знижка 85%</p>
+              </div>
+              <div class="string-item">
+                <p class="run-string-accent">Знижка 85%</p>
+              </div>
+              <div class="string-item">
+                <p class="run-string">Знижка 85%</p>
+              </div>
+              <div class="string-item">
+                <p class="run-string-accent">Знижка 85%</p>
+              </div>
+            </div>
+          </div>
           <a class="link-button link button-ten" href="">Хочу Спробувати</a>
           <p class="eight-text-gifts">
             Оплатіть до кінця дня і отримайте <span>подарунки</span>
           </p>
-          <img class="eight-gifts" src="./images/gift-ten.png" alt="подарунок" width="186" height="229"/>
-           <ul class="section-one-list list">
-             <li class="section-one-item">
-               <p class="one-item-text">
-                 1. Вебінар “Як вас бачить ваша дитина”
-               </p>
-             </li>
-             <li class="section-one-item">
-               <p class="one-item-text">
-                 2. Детальний, професійний прогноз на новий місяць
-               </p>
-             </li>
-           </ul>  
+          <img
+            class="eight-gifts"
+            src="./images/gift-ten.png"
+            alt="подарунок"
+            width="186"
+            height="229"
+          />
+          <ul class="section-eight-list list">
+            <li class="section-eight-item">
+              <p class="eight-item-text">
+                1. Вебінар “Як вас бачить ваша дитина”
+              </p>
+            </li>
+            <li class="section-eight-item">
+              <p class="eight-item-text">
+                2. Детальний, професійний прогноз на новий місяць
+              </p>
+            </li>
+          </ul>
           <div class="sell-here">
             <p class="section-one-sale">Знижка може закінчитись через</p>
             <img src="./images/finger-down.png" alt="" width="17" height="17" />
@@ -731,7 +790,7 @@
         </div>
       </section>
     </main>
-                <!--------------------section-ten------------------->
+    <!--------------------section-ten------------------->
     <footer class="footer">
       <div class="container">
         <p class="footer-text">
@@ -744,29 +803,40 @@
             <a class="footer-deal-link link" href="">Договір оферта</a>
           </li>
           <li class="footer-list-item">
-            <a class="footer-deal-link link" href="">Політика конфіденційності</a>
+            <a class="footer-deal-link link" href=""
+              >Політика конфіденційності</a
+            >
           </li>
         </ul>
         <div class="footer-contact">
           <svg class="footer-mail-icon" width="17" height="17">
             <use href="./images/symbol-defs.svg#icon-footer-mail"></use>
           </svg>
-          <a class="footer-mail link" href="mailto:astroinfo.dnepr@gmail.com" class="address-link"
+          <a
+            class="footer-mail link"
+            href="mailto:astroinfo.dnepr@gmail.com"
+            class="address-link"
             >astroinfo.dnepr@gmail.com</a
           >
         </div>
         <div class="footer-social-list">
           <a href="" class="footer-social-link">
             <svg class="footer-social-icon instagram" width="20" height="20">
-              <use href="./images/symbol-defs.svg#icon-footer-social-inst"></use>
+              <use
+                href="./images/symbol-defs.svg#icon-footer-social-inst"
+              ></use>
             </svg> </a
-          ><a href="" class="footer-social-link" >
+          ><a href="" class="footer-social-link">
             <svg class="footer-social-icon" width="20" height="20">
-              <use href="./images/symbol-defs.svg#icon-footer-social-facebook"></use>
+              <use
+                href="./images/symbol-defs.svg#icon-footer-social-facebook"
+              ></use>
             </svg> </a
-          ><a href="" class="footer-social-link" >
+          ><a href="" class="footer-social-link">
             <svg class="footer-social-icon" width="20" height="20">
-              <use href="./images/symbol-defs.svg#icon-footer-social-youtube"></use>
+              <use
+                href="./images/symbol-defs.svg#icon-footer-social-youtube"
+              ></use>
             </svg>
           </a>
         </div>
