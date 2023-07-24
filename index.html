@@ -78,7 +78,21 @@
               </div>
             </div>
           </div>
-          <a class="link-button link" href="">Хочу на курс</a>
+          <button class="link-button open-modal" type="button" data-modal-open>
+            Хочу на курс
+          </button>
+          <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+              <button type="button" class="close-button" data-modal-close>
+                X
+              </button>
+              <script
+                type="module"
+                src="https://kwiga.com/build/js/kwiga-widget.js?t=1690190967226&uuid=34eff2cb-1294-4416-b0b1-668ac8cdffa5&producer=https://kwiga.com/"
+              ></script>
+            </div>
+          </div>
+
           <h2 class="section-one-title">
             Оплатіть до кінця дня і отримайте
             <span class="one-title-accent">подарунки</span>
@@ -546,6 +560,12 @@
         <div class="eight-img-name">
           <picture>
             <source
+              srcset="./images/image-desktop/section-eight-image-desktop.png"
+              media="(min-width: 1440px)"
+              width="1168px"
+              heigth="auto"
+            />
+            <source
               srcset="./images/image-tablet/section-eight-image-tablet.jpg"
               media="(min-width: 768px)"
               width="100%"
@@ -849,5 +869,6 @@
     <script src="./js/faq.js" type="module"></script>
     <script src="./js/timer.js" type="module"></script>
     <script src="./js/timer-two.js" type="module"></script>
+    <script src="./js/modal.js" type="module"></script>
   </body>
 </html>
