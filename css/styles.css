@@ -1517,7 +1517,7 @@ body {
   height: 100%;
   background: rgba(46, 47, 66, 0.4);
 
-  padding-top: 96px;
+  padding-top: 50px;
   padding-bottom: 114px;
 
   opacity: 1;
@@ -1545,7 +1545,9 @@ body {
   padding-bottom: 24px;
   padding-left: 24px;
 
-  width: calc(100% - 24px);
+  width: calc(90% - 24px);
+
+  /* width: 300px; */
 
   background: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
@@ -1557,4 +1559,6 @@ body {
 
 .close-button {
   position: absolute;
+  top: 40px;
+  right: 10%;
 }
