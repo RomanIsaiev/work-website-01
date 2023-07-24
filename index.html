@@ -78,21 +78,13 @@
               </div>
             </div>
           </div>
-          <button class="link-button open-modal" type="button" data-modal-open>
-            Хочу на курс
-          </button>
-          <div class="backdrop is-hidden" data-modal>
-            <div class="modal">
-              <button type="button" class="close-button" data-modal-close>
-                X
-              </button>
-              <script
-                type="module"
-                src="https://kwiga.com/build/js/kwiga-widget.js?t=1690190967226&uuid=34eff2cb-1294-4416-b0b1-668ac8cdffa5&producer=https://kwiga.com/"
-              ></script>
-            </div>
-          </div>
-
+          <a
+            class="modal-button link"
+            href="https://ekspress-kurs.kwiga.com/landing/34eff2cb-1294-4416-b0b1-668ac8cdffa5"
+            target="_blank"
+            rel="nofollow"
+            >Хочу на курс</a
+          >
           <h2 class="section-one-title">
             Оплатіть до кінця дня і отримайте
             <span class="one-title-accent">подарунки</span>
@@ -102,25 +94,41 @@
               <p class="one-item-text">
                 1. Вебінар “Як вас бачить ваша дитина”
               </p>
-              <img
-                class="image"
-                src="./images/gift-1.png"
-                alt="Вебінар “Як вас бачить ваша дитина”"
-                width="150"
-                height="213"
-              />
+              <picture>
+                <source
+                  srcset="./images/image-desktop/gift-1-desktop.png"
+                  media="(min-width: 1440px)"
+                  width="280"
+                  height="395"
+                />
+                <img
+                  class="image"
+                  src="./images/gift-1.png"
+                  alt="Вебінар “Як вас бачить ваша дитина”"
+                  width="150"
+                  height="213"
+                />
+              </picture>
             </li>
             <li class="section-one-item">
               <p class="one-item-text">
                 2. Детальний, професійний прогноз на новий місяць
               </p>
-              <img
-                class="image"
-                width="150"
-                height="213"
-                src="./images/gift-2.png"
-                alt="Детальний, професійний прогноз на новий місяць"
-              />
+              <picture>
+                <source
+                  srcset="./images/image-desktop/gift-2-desktop.png"
+                  media="(min-width: 1440px)"
+                  width="280"
+                  height="395"
+                />
+                <img
+                  class="image"
+                  width="150"
+                  height="213"
+                  src="./images/gift-2.png"
+                  alt="Детальний, професійний прогноз на новий місяць"
+                />
+              </picture>
             </li>
           </ul>
           <div class="sell-here">
@@ -217,6 +225,11 @@
             src="./images/image-tablet/section-three-background-tablet.png"
             alt=""
           />
+          <img
+            class="section-three-image-desktop"
+            src="./images/image-desktop/section-three-background-desktop.png"
+            alt=""
+          />
           <div class="three-text-container">
             <p class="three-text-item">
               Зараз точно можуть бути складності чи завдання. Ви багато чого
@@ -269,7 +282,13 @@
               </div>
             </div>
           </div>
-          <a class="link-button three link" href="">Отримати курс</a>
+          <a
+            class="modal-button link"
+            href="https://ekspress-kurs.kwiga.com/landing/34eff2cb-1294-4416-b0b1-668ac8cdffa5"
+            target="_blank"
+            rel="nofollow"
+            >Отримати курс</a
+          >
         </div>
       </section>
       <!-- ------------------section-four----------------- -->
@@ -361,6 +380,12 @@
             src="./images/image-tablet/section-five-background-tablet.png"
             alt=""
           />
+
+          <!-- <img
+            class="image-background-five"
+            src="./images/image-desktop/section-five-background-desktop.png"
+            alt=""
+          /> -->
           <p class="five-text">
             Протягом багатьох років абсолютно різні люди (вчителі, подруги,
             бабусі та дідусі, друзі дітей, родичі та ін.) говорять мені про те,
@@ -466,7 +491,7 @@
           <table class="seven-table">
             <tr>
               <th>Наповнення (урок)</th>
-              <th>Міні-курс<br />"Мама може"</th>
+              <th>Міні-курс "Мама може"</th>
             </tr>
             <tr>
               <td><span>Вступний.</span> Побудова карти народження</td>
@@ -538,6 +563,27 @@
               </td>
             </tr>
           </table>
+          <button
+            id="buy-curse"
+            class="modal-button open-modal"
+            type="button"
+            data-modal-open
+          >
+            Хочу на курс
+          </button>
+          <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+              <button type="button" class="close-button" data-modal-close>
+                <svg class="button-close-svg" width="30" height="30">
+                  <use href="./images/symbol-defs.svg#icon-nine-svg"></use>
+                </svg>
+              </button>
+              <script
+                type="module"
+                src="https://kwiga.com/build/js/kwiga-widget.js?t=1690190967226&uuid=34eff2cb-1294-4416-b0b1-668ac8cdffa5&producer=https://kwiga.com/"
+              ></script>
+            </div>
+          </div>
           <p class="six-last-text">
             За підсумками, ви
             <span
@@ -614,17 +660,32 @@
               </div>
             </div>
           </div>
-          <a class="link-button link eight-margin" href="">Хочу на курс</a>
+          <a
+            class="modal-button link"
+            href="https://ekspress-kurs.kwiga.com/landing/34eff2cb-1294-4416-b0b1-668ac8cdffa5"
+            target="_blank"
+            rel="nofollow"
+            >Хочу на курс</a
+          >
+          <a class="link-button link eight-margin" href=""></a>
           <p class="eight-text-gifts">
             Оплатіть до кінця дня і отримайте <span>подарунки</span>
           </p>
-          <img
-            class="eight-gifts"
-            src="./images/section-eight-gifts.png"
-            alt="подарунок"
-            width="186"
-            height="229"
-          />
+          <picture>
+            <source
+              srcset="./images/image-desktop/section-eight-gifts-desktop.png"
+              media="(min-width: 1440px)"
+              width="348"
+              height="430"
+            />
+            <img
+              class="eight-gifts"
+              src="./images/section-eight-gifts.png"
+              alt="подарунок"
+              width="186"
+              height="229"
+            />
+          </picture>
           <ul class="section-eight-list list">
             <li class="section-eight-item">
               <p class="eight-item-text">
@@ -644,7 +705,7 @@
         <div class="container">
           <h2 class="nine-title">Часті питання</h2>
           <div class="faq">
-            <div class="question">
+            <div class="question isOpen">
               <div class="question-name">
                 <p>Чи потрібно розбиратися в астрології?</p>
                 <svg class="nine-svg" width="17" height="17">
@@ -767,17 +828,31 @@
               </div>
             </div>
           </div>
-          <a class="link-button link button-ten" href="">Хочу Спробувати</a>
+          <a
+            class="modal-button link button-ten"
+            href="https://ekspress-kurs.kwiga.com/landing/34eff2cb-1294-4416-b0b1-668ac8cdffa5"
+            target="_blank"
+            rel="nofollow"
+            >Хочу Спробувати</a
+          >
           <p class="eight-text-gifts">
             Оплатіть до кінця дня і отримайте <span>подарунки</span>
           </p>
-          <img
-            class="eight-gifts"
-            src="./images/gift-ten.png"
-            alt="подарунок"
-            width="186"
-            height="229"
-          />
+          <picture>
+            <source
+              srcset="./images/image-desktop/gift-ten-desktop.png"
+              media="(min-width: 1440px)"
+              width="348"
+              height="438"
+            />
+            <img
+              class="eight-gifts"
+              src="./images/gift-ten.png"
+              alt="подарунок"
+              width="186"
+              height="229"
+            />
+          </picture>
           <ul class="section-eight-list list">
             <li class="section-eight-item">
               <p class="eight-item-text">
@@ -820,10 +895,20 @@
         </p>
         <ul class="footer-list list">
           <li class="footer-list-item">
-            <a class="footer-deal-link link" href="">Договір оферта</a>
+            <a
+              class="footer-deal-link link"
+              target="_blank"
+              rel="nofollow"
+              href="https://docs.google.com/document/d/1jipHa-jLbFNtYpXc1OvyV23tgZqEAQvV-WFbuCmzjAw/edit"
+              >Договір оферта</a
+            >
           </li>
           <li class="footer-list-item">
-            <a class="footer-deal-link link" href=""
+            <a
+              class="footer-deal-link link"
+              target="_blank"
+              rel="nofollow"
+              href="https://docs.google.com/document/d/1QYjLNfEsF5OMl_gRm1E14GeV90hYEUDHZosh5FAoEBM/edit"
               >Політика конфіденційності</a
             >
           </li>
@@ -840,19 +925,24 @@
           >
         </div>
         <div class="footer-social-list">
-          <a href="" class="footer-social-link">
+          <a
+            href="https://www.instagram.com/ruslanbardadym/"
+            class="footer-social-link"
+            target="_blank"
+            rel="nofollow"
+          >
             <svg class="footer-social-icon instagram" width="20" height="20">
               <use
                 href="./images/symbol-defs.svg#icon-footer-social-inst"
               ></use>
             </svg> </a
-          ><a href="" class="footer-social-link">
+          ><a href="" class="footer-social-link" target="_blank" rel="nofollow">
             <svg class="footer-social-icon" width="20" height="20">
               <use
                 href="./images/symbol-defs.svg#icon-footer-social-facebook"
               ></use>
             </svg> </a
-          ><a href="" class="footer-social-link">
+          ><a href="" class="footer-social-link" target="_blank" rel="nofollow">
             <svg class="footer-social-icon" width="20" height="20">
               <use
                 href="./images/symbol-defs.svg#icon-footer-social-youtube"
@@ -869,6 +959,8 @@
     <script src="./js/faq.js" type="module"></script>
     <script src="./js/timer.js" type="module"></script>
     <script src="./js/timer-two.js" type="module"></script>
+
     <script src="./js/modal.js" type="module"></script>
+    <script src="./js/modal2.js" type="module"></script>
   </body>
 </html>
