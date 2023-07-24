@@ -692,6 +692,12 @@ body {
 }
 
 @media screen and (min-width: 1440px) {
+  .privilege-wrapper {
+    width: 714px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
   .two-quest-item {
     font-size: 18px;
   }
