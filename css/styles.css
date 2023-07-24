@@ -392,6 +392,23 @@ body {
   border: none;
 
   cursor: pointer;
+
+  animation: glowing 1300ms infinite;
+}
+
+@keyframes glowing {
+  0% {
+    background-color: #dd9745;
+    box-shadow: 0 0 5px #f8c285;
+  }
+  50% {
+    background-color: #70a1e7;
+    box-shadow: 0 0 20px #70a1e7;
+  }
+  100% {
+    background-color: #dd9745;
+    box-shadow: 0 0 5px #f8c285;
+  }
 }
 
 .section-one-title {
