@@ -2,7 +2,7 @@
 var currentDate = new Date();
 
 // Увеличение значения дня на 1
-currentDate.setDate(currentDate.getDate() + 1);
+currentDate.setDate(currentDate.getDate());
 
 // Получение отдельных составляющих даты
 var day = currentDate.getDate();
