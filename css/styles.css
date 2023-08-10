@@ -38,7 +38,7 @@ body {
 
 @media screen and (min-width: 425px) {
   .container {
-    width: 100%;
+    max-width: 425px;
   }
 }
 
@@ -755,11 +755,15 @@ body {
 
 /* --------------------section-three------------------- */
 
+.fix-img {
+  position: relative;
+}
+
 .section-three {
   padding-top: 60px;
   padding-bottom: 60px;
 
-  position: relative;
+  /* position: relative; */
 }
 
 .three-title {
@@ -804,7 +808,7 @@ body {
 
 .section-three-image {
   position: absolute;
-  top: 111px;
+  top: 60px;
   right: 0;
   z-index: -1;
 }
@@ -869,8 +873,17 @@ body {
 .section-three-image-tablet {
   display: none;
   position: absolute;
-  top: 60px;
+  top: 0;
   right: 0;
+  z-index: -1;
+}
+
+.section-three-image-desktop {
+  display: none;
+
+  position: absolute;
+  top: 0;
+  right: 300px;
   z-index: -1;
 }
 
@@ -903,8 +916,14 @@ body {
 }
 
 @media screen and (min-width: 1440px) {
+  .section-three {
+    padding-top: 124px;
+    padding-bottom: 96px;
+  }
+
   .three-title {
     font-size: 22px;
+    margin-bottom: 64px;
   }
 
   .three-accent-two {
@@ -922,15 +941,14 @@ body {
 
   .section-three-image-desktop {
     display: block;
+  }
 
-    position: absolute;
-    top: 24px;
-    right: 265px;
-    z-index: -1;
+  .three-how-list {
+    margin-bottom: 82px;
   }
 
   .three-text {
-    margin-bottom: 96px;
+    margin-bottom: 124px;
   }
 
   .three-text-container {
@@ -1117,10 +1135,12 @@ body {
 }
 /* --------------------section-five------------------- */
 
+.fix-five {
+  position: relative;
+}
+
 .section-five {
   padding-top: 60px;
-
-  position: relative;
 }
 
 .five-title {
@@ -1172,7 +1192,7 @@ body {
 
 .section-five .image {
   position: absolute;
-  top: 125px;
+  top: 60px;
   left: 0;
   z-index: -1;
 }
@@ -1181,8 +1201,16 @@ body {
   display: none;
 
   position: absolute;
-  top: 125px;
-  left: 60px;
+  top: 60px;
+  left: 0;
+  z-index: -1;
+}
+
+.image-background-five {
+  display: none;
+  position: absolute;
+  top: 60px;
+  left: 0;
   z-index: -1;
 }
 
@@ -1326,6 +1354,15 @@ body {
 }
 
 @media screen and (min-width: 1440px) {
+  .section-five .image-two {
+    display: none;
+  }
+
+  .image-background-five {
+    display: block;
+    left: 90px;
+  }
+
   .five-title {
     font-size: 26px;
   }
