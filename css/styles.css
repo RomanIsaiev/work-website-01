@@ -1650,6 +1650,90 @@ body {
     font-size: 20px;
   }
 }
+/* --------------------section-reviews------------------- */
+
+.reviews {
+  padding-top: 0;
+  padding-bottom: 60px;
+}
+
+.reviews-title {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+
+  color: var(--main-text-color-black);
+
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.siema {
+  margin-bottom: 12px;
+}
+
+.siema .wrapper {
+  width: 100%;
+  height: 208px;
+  background-color: #eef5ff;
+  padding: 16px 12px;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+}
+
+.siema .wrapper p {
+  font-family: Montserrat;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+
+  color: var(--main-text-color-black);
+
+  margin-top: 0;
+  margin-bottom: 0;
+
+  text-align: center;
+}
+
+.siema .wrapper .more-info {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 19.6px */
+  width: 295px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reviews-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.reviews button {
+  background-color: transparent;
+  border: none;
+}
+
+.reviews-button {
+  fill: #dd9745;
+  transition: transform 100ms linear;
+}
+
+.reviews-button:hover {
+  transform: scale(1.2);
+}
 
 /* --------------------section-nine------------------- */
 
@@ -1749,6 +1833,14 @@ body {
 .question:last-child {
   margin-bottom: 0;
 }
+@media screen and (min-width: 768px) {
+  .siema .wrapper {
+    padding: 20px 120px;
+
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
 @media screen and (min-width: 1440px) {
   .nine-title {
@@ -1765,6 +1857,14 @@ body {
 
   .question {
     width: 770px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .siema .wrapper {
+    width: 746px;
+    padding: 20px 100px;
+
     margin-left: auto;
     margin-right: auto;
   }
