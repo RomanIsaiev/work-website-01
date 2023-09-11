@@ -1712,6 +1712,10 @@ body {
 
   margin-left: auto;
   margin-right: auto;
+
+  text-decoration: none;
+
+  color: var(--main-text-color-black);
 }
 
 .reviews-button-container {
