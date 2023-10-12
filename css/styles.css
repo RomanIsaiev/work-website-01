@@ -241,6 +241,10 @@ body {
 
     padding-left: 60px;
   }
+
+  .hero-main-text {
+    max-width: 440px;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -267,7 +271,7 @@ body {
 
   .hero-main-text {
     font-size: 20px;
-    width: 482px;
+    max-width: 520px;
 
     margin-bottom: 48px;
   }
