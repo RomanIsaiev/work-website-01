@@ -82,8 +82,8 @@ body {
   background-size: cover;
   background-position: center;
 
-  /* padding-top: 30px; */
-  padding-top: 0;
+  padding-top: 30px;
+  /* padding-top: 0; */
   padding-bottom: 28px;
 
   width: 100%;
@@ -115,8 +115,8 @@ body {
 
 @media screen and (min-width: 1440px) {
   .section-hero {
-    /* padding-top: 40px; */
-    padding-top: 0;
+    padding-top: 40px;
+    /* padding-top: 0; */
     padding-bottom: 64px;
 
     background-image: url(../images/image-desktop/hero-background-desktop.jpg);
@@ -2149,7 +2149,7 @@ body {
 }
 
 /* halloween */
-
+/* 
 [class*='spider'] {
   position: absolute;
   height: 40px;
@@ -2299,79 +2299,10 @@ body {
   -moz-animation: spider-move-0 5s infinite;
   -webkit-animation: spider-move-0 5s infinite;
   animation: spider-move-0 5s infinite;
-}
+} */
 
 /* halloween animation */
-
-@-moz-keyframes flicker {
-  0%,
-  6%,
-  12% {
-    text-shadow: none;
-    color: #111111;
-  }
-  3%,
-  9% {
-    text-shadow: 0 0 8px rgba(250, 103, 1, 0.6);
-    color: #fa6701;
-  }
-  60% {
-    text-shadow: 0 0 8px rgba(250, 103, 1, 0.6), 0 0 16px rgba(250, 103, 1, 0.4),
-      0 0 20px rgba(255, 0, 84, 0.2), 0 0 22px rgba(255, 0, 84, 0.1);
-    color: #fa6701;
-  }
-  100% {
-    text-shadow: 0 0 8px rgba(250, 103, 1, 0.6), 0 0 16px rgba(250, 103, 1, 0.4),
-      0 0 20px rgba(255, 0, 84, 0.2), 0 0 22px rgba(255, 0, 84, 0.1);
-    color: #fa6701;
-  }
-}
-@-webkit-keyframes flicker {
-  0%,
-  6%,
-  12% {
-    text-shadow: none;
-    color: #111111;
-  }
-  3%,
-  9% {
-    text-shadow: 0 0 8px rgba(250, 103, 1, 0.6);
-    color: #fa6701;
-  }
-  60% {
-    text-shadow: 0 0 8px rgba(250, 103, 1, 0.6), 0 0 16px rgba(250, 103, 1, 0.4),
-      0 0 20px rgba(255, 0, 84, 0.2), 0 0 22px rgba(255, 0, 84, 0.1);
-    color: #fa6701;
-  }
-  100% {
-    text-shadow: 0 0 8px rgba(250, 103, 1, 0.6), 0 0 16px rgba(250, 103, 1, 0.4),
-      0 0 20px rgba(255, 0, 84, 0.2), 0 0 22px rgba(255, 0, 84, 0.1);
-    color: #fa6701;
-  }
-}
-@keyframes flicker {
-  0%,
-  6%,
-  12% {
-    text-shadow: none;
-    color: #111111;
-  }
-  3%,
-  9% {
-    text-shadow: 0 0 8px rgba(250, 103, 1, 0.6);
-    color: #fa6701;
-  }
-  60% {
-    text-shadow: 0 0 8px rgba(250, 103, 1, 0.6), 0 0 16px rgba(250, 103, 1, 0.4),
-      0 0 20px rgba(255, 0, 84, 0.2), 0 0 22px rgba(255, 0, 84, 0.1);
-    color: #fa6701;
-  }
-  100% {
-    text-shadow: 0 0 8px rgba(250, 103, 1, 0.6), 0 0 16px rgba(250, 103, 1, 0.4),
-      0 0 20px rgba(255, 0, 84, 0.2), 0 0 22px rgba(255, 0, 84, 0.1);
-    color: #fa6701;
-  }
-}
+/* 
 @-moz-keyframes legs-wriggle-left {
   0%,
   100% {
@@ -2506,11 +2437,11 @@ body {
   54% {
     margin-top: calc(100px + 33px);
   }
-}
+} */
 
 /* halloween header string */
 
-.header-halloween-string {
+/* .header-halloween-string {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2753,4 +2684,4 @@ body {
   100% {
     opacity: 0.1;
   }
-}
+} */
