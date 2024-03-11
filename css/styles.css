@@ -1634,6 +1634,36 @@ body {
   }
 }
 
+.form-text {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+
+  max-width: 420px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-text span {
+  font-weight: 600;
+}
+
+.form-text-two {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+
+  max-width: 370px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* --------------------section-eight------------------- */
 
 .section-eight {
