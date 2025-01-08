@@ -74,6 +74,11 @@ body {
   display: block;
 }
 
+.image-bonus {
+  display: block;
+  margin: 0 auto;
+}
+
 /* -----------------------section-hero-------------------------- */
 
 .section-hero {
@@ -516,11 +521,11 @@ body {
   line-height: normal;
 
   margin-top: 0;
-  margin-bottom: 12px;
+  margin-bottom: 20px;
 }
 
 .section-one .image {
-  margin: 0 auto 40px;
+  margin: 0 auto 10px;
 }
 
 .sell-here {
@@ -541,18 +546,8 @@ body {
   margin-bottom: 21px;
 }
 @media screen and (min-width: 768px) {
-  .section-one-list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
   .section-one-item {
-    width: 319px;
-  }
-  .one-item-text {
-    width: 235px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
   }
 }
 
@@ -577,10 +572,6 @@ body {
     width: 100%;
   }
 
-  .section-one-list {
-    justify-content: space-around;
-  }
-
   .section-one-title {
     font-size: 24px;
   }
@@ -591,7 +582,7 @@ body {
 
   .one-item-text {
     font-size: 20px;
-    width: 319px;
+    width: 320px;
   }
 
   .section-one-sale {
