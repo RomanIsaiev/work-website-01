@@ -152,6 +152,8 @@ body {
   line-height: 110%; /* 12.1px */
   text-transform: uppercase;
 
+  max-width: 200px;
+
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -295,6 +297,7 @@ body {
 
   .header-time-info {
     font-size: 22px;
+    max-width: 600px;
   }
 
   .header-start-info {
@@ -583,6 +586,7 @@ body {
   .one-item-text {
     font-size: 20px;
     width: 320px;
+    margin: 0 auto 20px auto;
   }
 
   .section-one-sale {
@@ -1680,8 +1684,9 @@ body {
   font-weight: 700;
   line-height: normal;
 
-  margin-top: 0;
-  margin-bottom: 20px;
+  max-width: 260px;
+
+  margin: 0 auto 20px auto;
 }
 
 .eight-text-gifts span {
